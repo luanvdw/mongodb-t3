@@ -1,0 +1,18 @@
+{
+  "name": "empty",
+  "description": "An Mongo DB schema with 3 models",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@prisma/client": "4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.1",
+    "prisma": "4.2.1",
+    "ts-node": "10.5.0",
+    "typescript": "4.5.5"
+  },
+  "scripts": {
+    "dev": "ts-node ./sandbox.ts",
+    "build": "prisma generate --data-proxy"
+  }
+}
